@@ -1,4 +1,6 @@
-﻿# palavras
+A lista das palavras foi obtida por meio de: https://github.com/pythonprobr/palavras
+
+# palavras
 Ferramenta de procura de expressões em lista de palavras portuguesas
 
 ## Primeira versão:
