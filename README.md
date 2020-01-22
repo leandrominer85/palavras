@@ -6,3 +6,6 @@ Apenas busca a correspondencia da string em qualquer parte da palavra - para cad
 
 ## Segunda Versão:
 Adicionando o menu de entrada e a possibilidade de buscas pelo início ou fim da palavra
+
+## Terceira Versão:
+Adicionada a opção de busca apenas pelo meio da palavra
