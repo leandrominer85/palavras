@@ -9,3 +9,5 @@ Adicionando o menu de entrada e a possibilidade de buscas pelo início ou fim da
 
 ## Terceira Versão:
 Adicionada a opção de busca apenas pelo meio da palavra
+
+## Correção de entrada como str

@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[25]:
+# In[27]:
 
 
 import re
 
 while True:
-    entrada = input("Digite a opção desejada: \n     1 - Para pesquisa em palavra inteira \n     2 - Para pesquisa no início da palavra \n     3 - Para pesquisa no fim da palavra \n     4 - Para pesquisa no meio da palavra \n     0 - Para sair \n")
+    entrada = int(input("Digite a opção desejada: \n     1 - Para pesquisa em palavra inteira \n     2 - Para pesquisa no início da palavra \n     3 - Para pesquisa no fim da palavra \n     4 - Para pesquisa no meio da palavra \n     0 - Para sair \n"))
     
-    if entrada == "1":
+    if entrada == 1:
         subs = input("Digite um termo: ")
         lista = open("palavras.txt", "r", encoding="utf-8")
         res = [x for x in lista if re.search(subs, x)]
@@ -17,7 +17,7 @@ while True:
         print(*res, sep = "\n")
         lista.close()        
         
-    elif entrada == "2":
+    elif entrada == 2:
         subs = input("Digite um termo: ")
         lista = open("palavras.txt", "r", encoding="utf-8")
         res = [x for x in lista if x.startswith(subs)]
@@ -25,7 +25,7 @@ while True:
         print(*res, sep = "\n")
         lista.close()
         
-    elif entrada == "3":
+    elif entrada == 3:
         subs = input("Digite um termo: ")
         lista = open("palavras.txt", "r", encoding="utf-8")
         res = [x for x in lista if x.endswith(subs + "\n")]
@@ -33,7 +33,7 @@ while True:
         print(*res, sep = "\n")
         lista.close()
         
-    elif entrada == "4":
+    elif entrada == 4:
         subs = input("Digite um termo: ")
         lista = open("palavras.txt", "r", encoding="utf-8")
         res = [x for x in lista if re.search(subs, x)]
