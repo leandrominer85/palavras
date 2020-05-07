@@ -1,5 +1,9 @@
 A lista das palavras foi obtida por meio de: https://github.com/pythonprobr/palavras
 
+O intuito deste programa é, dada uma sequência de caracteres (seníveis à maísculas e minúsculas e acentuação) permitir que o usuário procure na lista de palavras aquelas que correspondem a critérios escolhidos por ele:
+1 - Posição da expressão na palavra
+2- Caracteres máximos da palavra
+
 # palavras
 Ferramenta de procura de expressões em lista de palavras portuguesas
 
