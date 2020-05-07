@@ -14,3 +14,6 @@ Adicionada a opção de busca apenas pelo meio da palavra
 
 ## Correção de entrada como str
 Mudança da entrada do programa que estava como str para int
+
+## Correção de BUG na opção de saída e criação de nova versão
+Criação da versão com a trasformação do arquivo .txt em BD sqlite
